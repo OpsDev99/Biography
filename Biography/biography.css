@@ -1,0 +1,39 @@
+.image{
+    margin-left: 500px;
+    border-color:rgb(16, 255, 255);
+    border-style: solid;
+    border-radius: 200px 200px 200px 200px;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 40px;
+}
+h1{
+    margin-left: 600px;
+}
+#section{
+    text-align:left;
+}
+strong{
+    margin-left: 110px;
+}
+body{
+    font-family: "Arial";
+    font-style: normal;
+    color: white;
+}
+
+/*Este es una etiqueta de animacion*/
+ @keyframes example{
+    0%   {background-color: rgb(151, 46, 32);}
+    25%  {background-color: rgb(252, 39, 39);}
+    50%  {background-color: rgb(241, 18, 74);}
+    100% {background-color: rgb(146, 12, 3);}
+ }
+
+ /*El elemento a quien aplicaremos la animacion*/
+body{
+     animation-name: example;
+     animation-duration: 10s;
+     animation-iteration-count: infinite;
+ }
+ 
